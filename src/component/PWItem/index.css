@@ -1,0 +1,90 @@
+.pw-obj-li-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #9ba9eb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px 12px;
+  color: #f8fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .pw-obj-li-container {
+    width: 48%;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pw-obj-li-container {
+    width: 32%;
+    margin: 6px;
+  }
+}
+
+.initial-and-pw-details-container {
+  display: flex;
+}
+
+.website-initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  padding: 10px 12px;
+  font-size: 28px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.pw-obj-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.website-para {
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 16px;
+}
+
+.user-name-para {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.password-para {
+  margin-top: 5px;
+  padding: 0;
+}
+
+.stars-icon {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.delete-icon-container {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.delete-icon-container:hover {
+  transform: scale(1.02);
+}
+
+.delete-icon {
+  width: 30px;
+  margin: 0;
+}
+
+.delete-icon-container:active {
+  transform: scale(0.96);
+}
